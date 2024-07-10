@@ -1,0 +1,264 @@
+GRAFO COM 2 VÉRTICES (0, 1):
+        
+Solução Força Bruta: [0, 1, 0]
+
+        Tempo Força Bruta: 0.0001
+
+        Custo Força Bruta: 16.1245
+
+        
+Solução Algoritmo Água: [0, 1, 0]
+
+        Tempo Algoritmo Água: 0.0
+
+        Custo Algoritmo Água: 16.1245
+
+
+        
+ Comparação dos algoritmos:
+        Diferenca de tempo: -0.2573
+
+        Diferença de custo: 0.0
+
+        
+
+GRAFO COM 3 VÉRTICES (0, 1, 2):
+        
+Solução Força Bruta: [0, 1, 2, 0]
+
+        Tempo Força Bruta: 0.0
+
+        Custo Força Bruta: 16.5263
+
+        
+Solução Algoritmo Água: [0, 1, 2, 0]
+
+        Tempo Algoritmo Água: 0.0
+
+        Custo Algoritmo Água: 16.5263
+
+
+        
+ Comparação dos algoritmos:
+        Diferenca de tempo: -0.1519
+
+        Diferença de custo: 0.0
+
+        
+
+GRAFO COM 4 VÉRTICES (0, 1, 2, 3):
+        
+Solução Força Bruta: [0, 2, 1, 3, 0]
+
+        Tempo Força Bruta: 0.0001
+
+        Custo Força Bruta: 21.5182
+
+        
+Solução Algoritmo Água: [0, 3, 2, 1, 0]
+
+        Tempo Algoritmo Água: 0.0
+
+        Custo Algoritmo Água: 23.8221
+
+
+        
+ Comparação dos algoritmos:
+        Diferenca de tempo: -0.7112
+
+        Diferença de custo: 0.1071
+
+        
+
+GRAFO COM 5 VÉRTICES (0, 1, 2, 3, 4):
+        
+Solução Força Bruta: [0, 1, 2, 4, 3, 0]
+
+        Tempo Força Bruta: 0.0007
+
+        Custo Força Bruta: 17.5392
+
+        
+Solução Algoritmo Água: [4, 3, 1, 2, 0, 4]
+
+        Tempo Algoritmo Água: 0.0
+
+        Custo Algoritmo Água: 20.7055
+
+
+        
+ Comparação dos algoritmos:
+        Diferenca de tempo: -0.9335
+
+        Diferença de custo: 0.1805
+
+        
+
+GRAFO COM 6 VÉRTICES (0, 1, 2, 3, 4, 5):
+        
+Solução Força Bruta: [0, 2, 3, 5, 1, 4, 0]
+
+        Tempo Força Bruta: 0.0045
+
+        Custo Força Bruta: 21.3229
+
+        
+Solução Algoritmo Água: [5, 3, 0, 2, 4, 1, 5]
+
+        Tempo Algoritmo Água: 0.0001
+
+        Custo Algoritmo Água: 21.3229
+
+
+        
+ Comparação dos algoritmos:
+        Diferenca de tempo: -0.9868
+
+        Diferença de custo: 0.0
+
+        
+
+GRAFO COM 7 VÉRTICES (0, 1, 2, 3, 4, 5, 6):
+        
+Solução Força Bruta: [1, 2, 0, 5, 4, 3, 6, 1]
+
+        Tempo Força Bruta: 0.0295
+
+        Custo Força Bruta: 21.5208
+
+        
+Solução Algoritmo Água: [0, 5, 4, 3, 6, 2, 1, 0]
+
+        Tempo Algoritmo Água: 0.0001
+
+        Custo Algoritmo Água: 22.541
+
+
+        
+ Comparação dos algoritmos:
+        Diferenca de tempo: -0.9973
+
+        Diferença de custo: 0.0474
+
+        
+
+GRAFO COM 8 VÉRTICES (0, 1, 2, 3, 4, 5, 6, 7):
+        
+Solução Força Bruta: [0, 3, 5, 1, 4, 7, 2, 6, 0]
+
+        Tempo Força Bruta: 0.2804
+
+        Custo Força Bruta: 29.4892
+
+        
+Solução Algoritmo Água: [6, 2, 7, 4, 1, 5, 3, 0, 6]
+
+        Tempo Algoritmo Água: 0.0001
+
+        Custo Algoritmo Água: 29.4892
+
+
+        
+ Comparação dos algoritmos:
+        Diferenca de tempo: -0.9997
+
+        Diferença de custo: 0.0
+
+        
+
+GRAFO COM 9 VÉRTICES (0, 1, 2, 3, 4, 5, 6, 7, 8):
+        
+Solução Força Bruta: [0, 8, 3, 7, 6, 2, 5, 1, 4, 0]
+
+        Tempo Força Bruta: 2.688
+
+        Custo Força Bruta: 35.8156
+
+        
+Solução Algoritmo Água: [0, 8, 3, 7, 6, 2, 5, 1, 4, 0]
+
+        Tempo Algoritmo Água: 0.0001
+
+        Custo Algoritmo Água: 35.8156
+
+
+        
+ Comparação dos algoritmos:
+        Diferenca de tempo: -1.0
+
+        Diferença de custo: 0.0
+
+        
+
+GRAFO COM 10 VÉRTICES (0, 1, 2, 3, 4, 5, 6, 7, 8, 9):
+        
+Solução Força Bruta: [0, 5, 9, 2, 1, 8, 4, 7, 3, 6, 0]
+
+        Tempo Força Bruta: 25.267
+
+        Custo Força Bruta: 30.8509
+
+        
+Solução Algoritmo Água: [0, 5, 2, 9, 1, 8, 4, 7, 3, 6, 0]
+
+        Tempo Algoritmo Água: 0.0001
+
+        Custo Algoritmo Água: 32.7138
+
+
+        
+ Comparação dos algoritmos:
+        Diferenca de tempo: -1.0
+
+        Diferença de custo: 0.0604
+
+        
+
+GRAFO COM 11 VÉRTICES (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10):
+        
+Solução Força Bruta: [0, 7, 10, 9, 8, 2, 6, 5, 1, 3, 4, 0]
+
+        Tempo Força Bruta: 290.1738
+
+        Custo Força Bruta: 37.5127
+
+        
+Solução Algoritmo Água: [10, 7, 9, 8, 0, 4, 3, 5, 1, 6, 2, 10]
+
+        Tempo Algoritmo Água: 0.0001
+
+        Custo Algoritmo Água: 43.9929
+
+
+        
+ Comparação dos algoritmos:
+        Diferenca de tempo: -1.0
+
+        Diferença de custo: 0.1727
+
+        
+
+GRAFO COM 12 VÉRTICES (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11):
+        
+Solução Força Bruta: [2, 5, 0, 8, 7, 9, 10, 3, 11, 1, 6, 4, 2]
+
+        Tempo Força Bruta: 3662.2049
+
+        Custo Força Bruta: 33.4574
+
+        
+Solução Algoritmo Água: [0, 8, 5, 2, 4, 6, 11, 3, 10, 9, 1, 7, 0]
+
+        Tempo Algoritmo Água: 0.0024
+
+        Custo Algoritmo Água: 37.2208
+
+
+        
+ Comparação dos algoritmos:
+        Diferenca de tempo: -1.0
+
+        Diferença de custo: 0.1125
+
+        
+
