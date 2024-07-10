@@ -4,3 +4,5 @@ Repositório com todos os códigos e programas feitos por mim ao longo de minha 
 pela UFRJ.
 
 ### _EM CONSTRUÇÃO..._ 
+
+(Os códigos serão adicionados na branch 'main' conforme forem sendo finalizados e reorganizados.)
