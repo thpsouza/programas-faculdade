@@ -1,4 +1,7 @@
-# Sistema métrico
+## Sistema métrico
+import time
+
+
 def cm_to_m(x):
     return x * 0.01
 
@@ -7,7 +10,7 @@ def m_to_cm(x):
     return x * 100
 
 
-# Sistema inglês
+## Sistema inglês
 def in_to_ft(x):
     return x / 12
 
