@@ -1,3 +1,5 @@
+from massa import lbm_to_kg, kg_to_lbm
+
 g = 9.80665
 
 
@@ -10,8 +12,8 @@ def dyna_to_n(x):
 
 
 def lbf_to_n(x):
-    return x * 0.45359237 * g
+    return lbm_to_kg(x) * g
 
 
 def n_to_lbf(x):
-    return x / (0.45359237 * g)
+    return kg_to_lbm(x) / g

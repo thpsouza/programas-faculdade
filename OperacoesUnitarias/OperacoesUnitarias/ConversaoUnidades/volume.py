@@ -39,3 +39,7 @@ def in3_to_cm3(x):
 
 def ft3_to_m3(x):
     return x * 1728 * 16.387064 * 1e-6
+
+
+def m3_to_ft3(x):
+    return x / (1728 * 16.387064) * 1e6
