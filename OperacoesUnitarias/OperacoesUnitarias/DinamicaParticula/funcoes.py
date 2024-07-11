@@ -2,6 +2,7 @@
 
 from math import sqrt
 
+
 # Número de reynolds
 def reynolds(p: float, mu: float, d: float, v: float, u=0.0) -> float:
     """

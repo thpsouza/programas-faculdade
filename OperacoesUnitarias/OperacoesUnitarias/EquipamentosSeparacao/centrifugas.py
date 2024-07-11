@@ -62,13 +62,13 @@ def sigma(centrifuga:str, R1:float, R2:float, L:float, w:float, g:float=9.81, n:
     return S
 
 
-def calcular_w(centrifuga:str, sigma, R1, R2, L, g=9.81, n:int=None, theta:float=None) -> float:
+def calcular_w(centrifuga:str, sigma:float, R1:float, R2:float, L:float, g=9.81, n:int=None, theta:float=None) -> float:
     if centrifuga is TUBULAR:
         w = sqrt(sigma * g * log(2/(1 + (R1/R2)**2)) / (pi*L*(R2**2-R1**2)))
     elif centrifuga is DISCO:
         if not (n and theta):
             raise ValueError("Deve-se informar o número de discos e o ângulo. \n")
-        raise NotImplementedError()
+        w = sqrt(sigma * 3 * g * tan(theta) / (2 * pi * n * (R2**3 - R1**3)))
     else:
         raise ValueError("A centrífuga deve ser ou tubular ou de disco. \n")
     return w

@@ -19,11 +19,12 @@
 from . import (
     Granulometria,
     DinamicaParticula,
-    Separacao,
-    MeiosPorosos
+    EquipamentosSeparacao,
+    MeiosPorosos,
+    Fludizacao
     )
 from .Granulometria import *
-from .Separacao import (
+from .EquipamentosSeparacao import (
     camaras_de_poeira as CamaraPoeira,
     ciclones as Ciclone,
     elutriadores as Elutriador,
@@ -32,8 +33,10 @@ from .Separacao import (
     sedimentadores as Sedimentador
 )
 
+## Conversao de unidades
+from . import ConversaoUnidades as conversao
+
 ## Gerais
 from .geral import *
-from .conversoes import *
 from .propriedades_materiais import *
 

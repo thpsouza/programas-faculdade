@@ -2,9 +2,9 @@ import matplotlib.pyplot as plt
 
 
 class Funcao:
-    '''
+    """
     Classe para representar uma função de uma variável e uma constante desconhecida
-    '''
+    """
     def __init__(self, funcao_lambda, cte):
         self.f = funcao_lambda
         self.cte = cte
@@ -14,18 +14,18 @@ class Funcao:
 
 
 def isamethod(v):
-    class C:
-        def f(self):...
-    return isinstance(v, type(C().f))
+    class CLASS:
+        def f(self): ...
+    return isinstance(v, type(CLASS().f))
 
 
 def isafunction(v):
-    def f():...
-    return isinstance(v, type(f))
+    def FUNCTION(): ...
+    return isinstance(v, type(FUNCTION))
 
 
 def isalambda(v):
-    LAMBDA = lambda:0
+    LAMBDA = lambda: 0
     return isinstance(v, type(LAMBDA)) and v.__name__ == LAMBDA.__name__
 
 
@@ -59,13 +59,15 @@ def quadratura_gaussiana(f:Funcao, a:float, b:float):
     '''
     Essa função aplica a quadratura gaussiana de 3 pontos em uma função f, no intervalo [a,b]
     '''
+    ## Lazy import
+    from math import sqrt
     ## Coeficientes
     m = (b-a)/2
     c = (b+a)/2
     ## Pontos
-    x1 = -m*np.sqrt(0.6) + c
+    x1 = -m*sqrt(0.6) + c
     x2 = c
-    x3 = m*np.sqrt(0.6) + c
+    x3 = m*sqrt(0.6) + c
     ## Integral:
     I = m * (5/9*f(x1) + 8/9*f(x2) + 5/9*f(x3))
     return I
@@ -143,9 +145,12 @@ def plotar(X: list, Y: list, **kwargs):
     ## Y[0][0]: <class 'tuple'> ---> len = n
     ## Y[0][0][0]: <class 'numpy.float64'>
 
+    ## Lazy import
+    from numpy import ndarray
+
     ## Defesa de Y
-    if isinstance(Y[0], (list, tuple, np.ndarray)):
-        if isinstance(Y[0][0], (list, tuple, np.ndarray)):
+    if isinstance(Y[0], (list, tuple, ndarray)):
+        if isinstance(Y[0][0], (list, tuple, ndarray)):
             ## Contagem de subplots:
             k = len(Y)
             ## Contagem de funções por subplot
@@ -159,7 +164,7 @@ def plotar(X: list, Y: list, **kwargs):
         n = 1
 
     ## Defesa de X
-    if not isinstance(X[0], (list, tuple, np.ndarray)):
+    if not isinstance(X[0], (list, tuple, ndarray)):
         X = [X for i in range(k)]
 
     ## Inicia a figura 
@@ -177,7 +182,7 @@ def plotar(X: list, Y: list, **kwargs):
 
     for i in range(k):
         ## Plota as funções no subplot
-        if isinstance(Y[i], (list, tuple, np.ndarray)):
+        if isinstance(Y[i], (list, tuple, ndarray)):
             Y_i = list(zip(*Y[i]))
         else:
             #Y_i = list(Y[i])

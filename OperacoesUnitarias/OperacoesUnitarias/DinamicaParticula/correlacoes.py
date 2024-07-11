@@ -2,6 +2,7 @@
 
 from math import log10
 
+
 # Correlações de Coelho e Massarani
 def k1(esfericidade: float) -> float:
     return 0.843 * log10(esfericidade / 0.065)
