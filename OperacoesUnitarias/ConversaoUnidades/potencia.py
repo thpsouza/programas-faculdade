@@ -1,5 +1,5 @@
-from forca import lbf_to_n, n_to_lbf
-from comprimento import ft_to_m, m_to_ft
+from .forca import lbf_to_n, n_to_lbf
+from .comprimento import ft_to_m, m_to_ft
 
 
 def watt_to_hp(x):

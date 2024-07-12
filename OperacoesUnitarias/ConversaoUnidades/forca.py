@@ -1,4 +1,4 @@
-from massa import lbm_to_kg, kg_to_lbm
+from .massa import lbm_to_kg, kg_to_lbm
 
 g = 9.80665
 

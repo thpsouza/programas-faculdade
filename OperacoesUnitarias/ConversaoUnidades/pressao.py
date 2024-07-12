@@ -1,5 +1,5 @@
-from forca import lbf_to_n, n_to_lbf
-from area import in2_to_m2, m2_to_in2
+from .forca import lbf_to_n, n_to_lbf
+from .area import in2_to_m2, m2_to_in2
 
 
 def dynapcm2_to_pa(x):

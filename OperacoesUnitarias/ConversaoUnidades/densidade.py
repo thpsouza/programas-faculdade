@@ -1,5 +1,5 @@
-from volume import ft3_to_m3, m3_to_ft3
-from massa import lbm_to_kg, kg_to_lbm
+from .volume import ft3_to_m3, m3_to_ft3
+from .massa import lbm_to_kg, kg_to_lbm
 
 
 def gpcm3_to_kgpm3(x):
