@@ -21,7 +21,7 @@ from . import (
     DinamicaParticula,
     EquipamentosSeparacao,
     MeiosPorosos,
-    Fludizacao
+    Fluidizacao
     )
 from .Granulometria import *
 from .EquipamentosSeparacao import (
@@ -39,4 +39,3 @@ from . import ConversaoUnidades as conversao
 ## Gerais
 from .geral import *
 from .propriedades_materiais import *
-
